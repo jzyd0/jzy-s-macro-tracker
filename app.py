@@ -11,7 +11,7 @@ from pydantic import BaseModel, Field
 st.set_page_config(page_title="AI Macro Tracker", page_icon="🍗", layout="centered")
 
 # Replace with your actual Gemini API key
-GEMINI_API_KEY = "YOUR_GEMINI_API_KEY_HERE" 
+GEMINI_API_KEY = st.secrets["AQ.Ab8RN6Jz4S7I_HQZBtCLIozjTSRs8Z58ohvr6HAAtNRyhzHHwQ"]
 
 # Initialize the Gemini Client
 @st.cache_resource
